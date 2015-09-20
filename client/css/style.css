@@ -1,0 +1,121 @@
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+/* additional sections */
+#home {
+  padding-top: 0;
+  background: url(./../img/whitney.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 70px;
+
+}
+
+
+#about {
+  padding: 5% 0;
+
+}
+
+#services {
+  background-color: #306d9f;
+  color: #ffffff;
+    /*padding-bottom: 5%;*/
+}
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+.technologies {
+  padding-bottom: 2%;
+}
+
+#projects {
+  background: url(./../img/code.jpeg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#projects .panel {
+  opacity: 0.85;
+}
+
+
+
+.screenshot{
+  max-height: 80%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project {
+  margin-top:5%;
+}
+
+
+.footer {
+  opacity: .80;
+  background-color: #333333;
+  padding: 10px 0;
+  margin-top: 5%;
+  color: white;
+
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+
+.headshot{
+  max-height: 40px;
+  max-width: 40px;
+  margin: -7.5px; 
+  /*padding-left: 5px;*/
+}
